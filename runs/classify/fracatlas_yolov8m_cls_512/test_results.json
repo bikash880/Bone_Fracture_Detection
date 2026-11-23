@@ -1,0 +1,73 @@
+{
+  "name": "fracatlas_yolov8m_cls_512",
+  "model": "yolov8m-cls.pt",
+  "imgsz": 512,
+  "epochs": 100,
+  "patience": 20,
+  "batch": 8,
+  "members": [
+    {
+      "weights": "C:\\Users\\bikas\\Downloads\\FracAtlas\\runs\\classify\\fracatlas_yolov8m_cls_512\\weights\\best.pt",
+      "imgsz": 512
+    }
+  ],
+  "target_recall": 0.8,
+  "val_argmax": {
+    "threshold": 0.5,
+    "accuracy": 0.9320175438596491,
+    "recall": 0.6707317073170732,
+    "precision": 0.9322033898305084,
+    "f1": 0.7801418439716312,
+    "tp": 55,
+    "fn": 27,
+    "fp": 4,
+    "tn": 370
+  },
+  "val_tuned": {
+    "threshold": 0.005017498042434454,
+    "accuracy": 0.8574561403508771,
+    "recall": 0.8048780487804879,
+    "precision": 0.5739130434782609,
+    "f1": 0.6700507614213198,
+    "tp": 66,
+    "fn": 16,
+    "fp": 49,
+    "tn": 325
+  },
+  "dataset_counts": null,
+  "val_tuned_085": {
+    "threshold": 0.001804357161745429,
+    "accuracy": 0.7982456140350878,
+    "recall": 0.8536585365853658,
+    "precision": 0.4666666666666667,
+    "f1": 0.603448275862069,
+    "tp": 70,
+    "fn": 12,
+    "fp": 80,
+    "tn": 294
+  },
+  "note": "User chose target recall 0.80 after 90% val accuracy was not reached at 0.85 (see analysis/val_recall_tradeoff.md).",
+  "train": {
+    "threshold": 0.005017498042434454,
+    "accuracy": 0.9595738013162018,
+    "recall": 1.0,
+    "precision": 0.8165007112375533,
+    "f1": 0.898981989036805,
+    "tp": 574,
+    "fn": 0,
+    "fp": 129,
+    "tn": 2488
+  },
+  "test": {
+    "threshold": 0.005017498042434454,
+    "accuracy": 0.8724637681159421,
+    "recall": 0.8412698412698413,
+    "precision": 0.6091954022988506,
+    "f1": 0.7066666666666668,
+    "tp": 53,
+    "fn": 10,
+    "fp": 34,
+    "tn": 248,
+    "n": 345
+  }
+}

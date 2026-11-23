@@ -1,0 +1,11 @@
+{
+  "members": [
+    {
+      "weights": "classify_fracatlas_yolov8m_cls_512_best.pt",
+      "imgsz": 512
+    }
+  ],
+  "fractured_threshold": 0.005017498042434454,
+  "source_run": "fracatlas_yolov8m_cls_512",
+  "note": "P(fractured) = mean over members; predict fractured when P >= threshold (tuned on VAL for recall >= 0.80)"
+}

@@ -1,0 +1,6 @@
+# Byte-identical images found in more than one split; later-split copy removed
+split	class	image	note
+val	non_fractured	IMG0000006.jpg	duplicate of train:IMG0002294.jpg
+val	non_fractured	IMG0000001.jpg	duplicate of train:IMG0002295.jpg
+test	non_fractured	IMG0004341.jpg	duplicate of train:IMG0004314.jpg
+test	non_fractured	IMG0000002.jpg	duplicate of val:IMG0002296.jpg

@@ -1,0 +1,7 @@
+path: C:/Users/bikas/Downloads/FracAtlas/datasets/det
+train: images/train
+val: images/val
+test: C:/Users/bikas/Downloads/FracAtlas/analysis/test_mixed.txt
+nc: 1
+names:
+  0: fractured

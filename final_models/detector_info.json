@@ -1,0 +1,5 @@
+{
+  "weights": "detect_best.pt",
+  "source_run": "fracatlas_yolov8n",
+  "imgsz": 640
+}

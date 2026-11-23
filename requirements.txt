@@ -1,0 +1,13 @@
+# Install PyTorch with CUDA first (Windows/Linux, NVIDIA GPU):
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cu126
+# then:
+#   pip install -r requirements.txt
+ultralytics==8.4.216
+pandas==3.1.1
+numpy==2.5.4
+opencv-python==5.1.0.95
+pillow==13.0.0
+# web UI backend (ui_server.py)
+fastapi==0.165.0
+uvicorn==0.54.0
+python-multipart==0.0.34

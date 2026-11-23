@@ -1,0 +1,43 @@
+# ---- secrets / local config (never commit) ----
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*secret*
+*credential*
+.claude/
+.vscode/
+.idea/
+
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- Node / React UI ----
+ui/node_modules/
+ui/dist/
+npm-debug.log*
+
+# ---- dataset (download from figshare, see README) and generated datasets ----
+FracAtlas/
+FracAtlas.zip
+datasets/
+
+# ---- training outputs: keep only small result files (weights live in final_models/) ----
+runs/**/weights/
+runs/**/*.jpg
+# pretrained base weights are downloaded automatically by Ultralytics
+/*.pt
+
+# ---- local logs and pipeline state ----
+logs_*.txt
+pipeline_state.json
+pipeline_state.tmp
+STOP
